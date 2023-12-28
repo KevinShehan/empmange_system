@@ -1,0 +1,1 @@
+"# empmange_system"  initgit add README.mdgit commit -m "first commit"git branch -M maingit remote add origin https://github.com/KevinShehan/empmange_system.gitgit push -u origin main
