@@ -7,17 +7,19 @@ const EmployeeList = () => {
         <button className='font-semibold rounded bg-slate-600 text-white px-6 py-2'>Add Employee</button>
       </div>
       <div className='flex shadow border-b'>
-        <table>
-          <thead>
+        <table className='min-w-full'>
+          <thead className='bg-gray-50'>
             <tr>
-              <th>FirstName</th>
-              <th>LastName</th>
-              <th>EmailID</th>
-              <th>Actions</th>
+              <th className='text-left font-medium text-gray-500 uppercase tracking-wider py-3 px-6'>First Name</th>
+              <th className='text-left font-medium text-gray-500 uppercase tracking-wider py-3 px-6'>Last Name</th>
+              <th className='text-left font-medium text-gray-500 uppercase tracking-wider py-3 px-6'>EmailID</th>
+              <th className='text-right font-medium text-gray-500 uppercase tracking-wider py-3 px-6'>Actions</th>
             </tr>
           </thead>
           <tbody>
-
+              <tr>
+                <td>Test</td>
+              </tr>
           </tbody>
         </table>
       </div>
