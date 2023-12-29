@@ -9,9 +9,7 @@ function App() {
 
   return (
     <>
-
       <BrowserRouter>
-
         <Navbar />
         <Routes>
           <Route index element={<EmployeeList />}></Route>
@@ -20,7 +18,6 @@ function App() {
           <Route path='/addemployee' element={ <AddEmployee />}></Route>
         </Routes>
       </BrowserRouter>
-
     </>
   )
 }
