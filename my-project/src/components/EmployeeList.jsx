@@ -9,7 +9,12 @@ const EmployeeList = () => {
       <div className='flex shadow border-b'>
         <table>
           <thead>
-            
+            <tr>
+              <th>FirstName</th>
+              <th>LastName</th>
+              <th>EmailID</th>
+              <th>Actions</th>
+            </tr>
           </thead>
           <tbody>
 
