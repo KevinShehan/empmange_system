@@ -1,4 +1,4 @@
-import React from 'react'
+
 
 const EmployeeList = () => {
   return (
@@ -17,7 +17,10 @@ const EmployeeList = () => {
             </tr>
           </thead>
           <tbody>
-              <tr>
+              <tr className='bg-white'>
+                <td className='text-left'>Test</td>
+                <td>Test</td>
+                <td>Test</td>
                 <td>Test</td>
               </tr>
           </tbody>

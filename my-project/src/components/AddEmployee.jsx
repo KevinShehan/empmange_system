@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import EmployeeService from '../services/EmployeeService';
 
 const AddEmployee = () => {
@@ -67,7 +67,7 @@ const AddEmployee = () => {
 
         <div className='items-center justify-center h-14 w-full my-4 space-x-3 pt-2'>
           <button onClick={saveEmployee} className='rounded text-white font-semibold bg-green-400 py-2 px-6 shadow hover:bg-green-700'>Save</button>
-          <button  className='rounded text-white font-semibold bg-red-400 py-2 px-6 shadow hover:bg-red-700'>Clear</button>
+          <button className='rounded text-white font-semibold bg-red-400 py-2 px-6 shadow hover:bg-red-700'>Clear</button>
         </div>
       </div>
     </div>
