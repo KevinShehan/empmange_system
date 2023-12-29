@@ -8,10 +8,11 @@ function App() {
 
   return (
     <>
-    <BrowserRouter>
-    </BrowserRouter>
-      <Navbar/>
-      <AddEmployee/>
+      <BrowserRouter>
+        <Navbar />
+        <AddEmployee />
+      </BrowserRouter>
+
     </>
   )
 }
