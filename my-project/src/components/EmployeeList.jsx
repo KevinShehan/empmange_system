@@ -4,7 +4,7 @@ const EmployeeList = () => {
   return (
     <>
       <div className='h-12'>
-        <button className=''>Add Employee</button>
+        <button className='rounded bg-slate-600 text-white px-6 py-2'>Add Employee</button>
         <table>
 
         </table>
