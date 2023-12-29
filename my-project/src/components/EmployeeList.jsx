@@ -17,12 +17,21 @@ const EmployeeList = () => {
             </tr>
           </thead>
           <tbody>
-              <tr className='bg-white'>
-                <td className='text-left'>Test</td>
-                <td>Test</td>
-                <td>Test</td>
-                <td>Test</td>
-              </tr>
+            <tr className='bg-white'>
+              <td className='text-left px-6 py-4 whitespace-nowrap'>
+                <div className="text-sm text-gray-600">Kevin</div>
+              </td>
+              <td className='text-left px-6 py-4 whitespace-nowrap'>
+                <div className="text-sm text-gray-600">Perera</div>
+              </td>
+              <td className='text-left px-6 py-4 whitespace-nowrap'>
+                <div className="text-sm text-gray-600">Kevin.shehan30@gmail.com</div>
+              </td>
+              <td className='text-right px-6 py-4 whitespace-nowrap font-medium text-sm'>
+                <a href="" className="text-indigo-600 hover:text-indigo-800 px-4">Edit</a>
+                <a href="" className="text-red-600 hover:text-red-800 px-4">Delete</a>
+              </td>
+            </tr>
           </tbody>
         </table>
       </div>
