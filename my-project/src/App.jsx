@@ -13,7 +13,7 @@ function App() {
         <Navbar />
         <Routes>
           <Route index element={<EmployeeList />}></Route>
-          <Route path='/' element={<EmployeeList />}></Route>
+      n dev    <Route path='/' element={<EmployeeList />}></Route>
           <Route path='/employeeList' element={<EmployeeList />}></Route>
           <Route path='/addemployee' element={ <AddEmployee />}></Route>
         </Routes>
