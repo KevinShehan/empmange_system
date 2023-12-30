@@ -39,23 +39,25 @@ const EmployeeList = () => {
               <th className='text-right font-medium text-gray-500 uppercase tracking-wider py-3 px-6'>Actions</th>
             </tr>
           </thead>
-          <tbody>
-            <tr className='bg-white'>
-              <td className='text-left px-6 py-4 whitespace-nowrap'>
-                <div className="text-sm text-gray-600">Kevin</div>
-              </td>
-              <td className='text-left px-6 py-4 whitespace-nowrap'>
-                <div className="text-sm text-gray-600">Perera</div>
-              </td>
-              <td className='text-left px-6 py-4 whitespace-nowrap'>
-                <div className="text-sm text-gray-600">Kevin.shehan30@gmail.com</div>
-              </td>
-              <td className='text-right px-6 py-4 whitespace-nowrap font-medium text-sm'>
-                <a href="" className="text-indigo-600 hover:text-indigo-800 px-4">Edit</a>
-                <a href="" className="text-red-600 hover:text-red-800 ">Delete</a>
-              </td>
-            </tr>
-          </tbody>
+          {!loading && (
+            <tbody>
+              {employee.map((employee)=>())}
+              <tr className='bg-white'>
+                <td className='text-left px-6 py-4 whitespace-nowrap'>
+                  <div className="text-sm text-gray-600">Kevin</div>
+                </td>
+                <td className='text-left px-6 py-4 whitespace-nowrap'>
+                  <div className="text-sm text-gray-600">Perera</div>
+                </td>
+                <td className='text-left px-6 py-4 whitespace-nowrap'>
+                  <div className="text-sm text-gray-600">Kevin.shehan30@gmail.com</div>
+                </td>
+                <td className='text-right px-6 py-4 whitespace-nowrap font-medium text-sm'>
+                  <a href="" className="text-indigo-600 hover:text-indigo-800 px-4">Edit</a>
+                  <a href="" className="text-red-600 hover:text-red-800 ">Delete</a>
+                </td>
+              </tr>
+            </tbody>)}
         </table>
       </div>
     </div>
