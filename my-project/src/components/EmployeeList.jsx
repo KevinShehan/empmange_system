@@ -1,13 +1,27 @@
+import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom"
 
 
 const EmployeeList = () => {
   const navigate = useNavigate();
+
+  const [loading, setLoading] = useState(true);
+  const [employee, setEmployee] = useState(null);
+
+  
+  useEffect(() => {
+    first
+  
+    return () => {
+      second
+    }
+  }, [third])
+  
   return (
     <div className='container mx-auto my-6'>
       <div className='h-12'>
         <button className='font-semibold rounded bg-slate-600 text-white px-6 py-2'
-        onClick={()=>navigate("/addEmployee")}>Add Employee</button>
+          onClick={() => navigate("/addEmployee")}>Add Employee</button>
       </div>
       <div className='flex shadow border-b'>
         <table className='min-w-full'>
