@@ -41,7 +41,7 @@ const EmployeeList = () => {
           </thead>
           {!loading && (
             <tbody>
-              {employee.map((employee)=>())}
+           
               <tr className='bg-white'>
                 <td className='text-left px-6 py-4 whitespace-nowrap'>
                   <div className="text-sm text-gray-600">Kevin</div>
